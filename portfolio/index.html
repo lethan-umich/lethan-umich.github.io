@@ -1,22 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- TODO: Replace Mr. Miyamoto's name with yours -->
-<h1>The Portfolio of Ethan Leach</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-<h2>Projects</h2>
+<body>
+    <h1>Portfolio of Ethan Leach</h1>
+    <p>Throughout my career as a student at the University of Michigan, I have worked on a variety of game development projects such as:</p>
+    <table>
+        <tr>
+            <td>
+                <img class="promo-img" src="assets/dance-demon.png">
+                <h1>Demon Dance</h1>
+                <p>(<a href="https://thevoices.itch.io/demon-dance">Play in browser on itch.io</a>)</p>
+            </td>
+            <td>
+                <p>A rhythm game inspired by games such as <i>Dance Dance Revolution</i> and <i>Friday Night Funkin'</i> created for the Wolverinesoft Mega Jam in October 2023.</p>
+                <p>My primary contributions to this project was programming and implementing the UI elements.</p>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <img class="promo-img" src="assets/semiconductor.png">
+                <h1>Semiconductor</h1>
+                <p>(<a href="https://rnbhatt.itch.io/semiconductor">Play in browser on itch.io</a>)</p>
+            </td>
+            <td>
+                <p>A rhythm game created for the WolverineSoft Shammy Jam 2024.</p>
+                <p>For this game, I handled most of the programming for the project, primarily excluding programming for the title and credits screens.</p>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <img class="promo-img" src="assets/zelda.png">
+                <h1>The Legend of Zelda (recreation)</h1>
+                <p>(<a href="zelda/index.html">Play in browser</a>)</p>
+            </td>
+            <td>
+                <p>A recreation of <i>The Legend of Zelda</i> for the NES, created in the span of 3 weeks with a partner for the game development course EECS 494.</p>
+                <p>In addition to recreating the first dungeon of the game, we were tasked with creating something new in the game and a mini dungeon to go along with it. For this, we created a simple ice wand which can freeze water to form paths as well as enemies.</p>
+                <p>For my contibutions, I primarily handled:</p>
+                <ul>
+                    <li>Basic importing of the dungeon</li>
+                    <li>Dungeon mechanics such as room transitions and puzzle elements (like items appearing after defeating enemies, or pushable blocks)</li>
+                    <li>Enemy AI, excluding Aquamentus</li>
+                    <li>Authentic dungeon implementation (such as the placing of enemies and items)</li>
+                    <li>Work on custom dungeon, such as the custom item and room layouts</li>
+                </ul>
+            </td>
+        </tr>
 
-<!-- TODO: Erase one of these two. Replace the 'href' link below with a link to your WebGL build page. -->
-<ul>
-<li><a href="zelda/index.html">The Legend of Zelda (Unity Remaster)</a>: In this, I primarily worked on:
-    <ul>
-        <li>Basic importing of the dungeon</li>
-        <li>Dungeon mechanics such as room transitions and puzzle elements (like items appearing after defeating enemies, or pushable blocks)</li>
-        <li>Enemy AI, excluding Aquamentus</li>
-        <li>Authentic dungeon implementation</li>
-        <li>Work on custom dungeon, such as custom item and room layouts</li>
-    </ul>
-</li>
-<!--<li><a href="https://pre00.deviantart.net/4fa1/th/pre/i/2010/254/0/4/chibi_metroid_by_freak_sider-d2yhe9u.png">Metroid (Unity Remaster)</a></li>-->
-</ul>
-<li><a href="rgbcym/index.html">Ram, Glide, Blink: Change Your Mind</a>: A short platformer based on powers of colors and their combinations. The entire project was made by myself alone.
-<li><a href="GSR/index.html">G.S.R.</a> (<a href="https://ethantho.itch.io/gsr">itch.io page</a>): An arcade racing game focused on combat. (Requires 2 controllers to play) My contributions were many core systems such as weapons, health, and many parts of the UI programming and design.
+        <tr>
+            <td>
+                <img class="promo-img" src="assets/rgbcym.png">
+                <h1>Ram, Glide, Blink: Change Your Mind</h1>
+                <p>(<a href="rgbcym/index.html">Play in browser</a>)</p>
+            </td>
+            <td>
+                <p>A relatively simple puzzle platformer based on using colors as powerups, as well as being able to combine them to form new powerups.</p>
+                <p>created as the second project for EECS 494. The project was to create any game of our choosing in the span of 2 weeks.</p>
+                <p>I worked on this alone, and as such I programmed and created every part of the project including all assets.</p>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <img class="promo-img" src="assets/gsr.png">
+                <h1>G.S.R.</h1>
+                <p>Note: requires 2 controllers to play</p>
+                <p>(<a href="GSR/index.html">Play in browser (mostly untested)</a>)</p>
+                <p>(<a href="https://ethantho.itch.io/gsr">itch.io page</a>)</p>
+            </td>
+            <td>
+                <p>The third and final project for EECS 494, created in a group of 5. At our classwide showcase, it placed 4<sup>th</sup> overall.</p>
+                <p>It is a racing game inspired primarily by games in the <i>F-Zero</i> franchise, but with much more of a focus on combat compared to other games in the franchise and genre overall.</p>
+                <p>My primary tasks when it came to the project were:</p>
+                <ul>
+                    <li>General implementation of combat systems like health and guns.</li>
+                    <li>Track checkpoint system, including lap support.</li>
+                    <li>Player customization (colors and weapons)</li>
+                    <li>UI programming and design.</li>
+                </ul>
+                <p>A trailer for the project can be found here:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Cqtl8_-qTmI?si=emRjO9amoXOPSRnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+        </tr>
+        
+        
+    </table>
+</body>
+
 </html>
